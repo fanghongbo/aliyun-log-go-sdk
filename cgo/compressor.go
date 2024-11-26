@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/DataDog/zstd"
-	sls "github.com/aliyun/aliyun-log-go-sdk"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
 )
 
 func SetZstdCgoCompressor(compressLevel int) error {

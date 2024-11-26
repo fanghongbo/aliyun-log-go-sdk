@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	sls "github.com/aliyun/aliyun-log-go-sdk"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
 )
 
 const Delimiter = "|"
@@ -58,6 +58,8 @@ type ProducerConfig struct {
 	Region           string
 	AuthVersion      sls.AuthVersionType
 	CompressType     int // only work for logstore now
+
+	Logger bool // custom
 }
 
 func GetDefaultProducerConfig() *ProducerConfig {
@@ -76,5 +78,6 @@ func GetDefaultProducerConfig() *ProducerConfig {
 		MaxBatchCount:         4096,
 		NoRetryStatusCodeList: []int{400, 404},
 		CompressType:          sls.Compress_LZ4,
+		Logger:                false,
 	}
 }

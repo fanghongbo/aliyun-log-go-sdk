@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	sls "github.com/aliyun/aliyun-log-go-sdk"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
 	"go.uber.org/atomic"

@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	sls "github.com/aliyun/aliyun-log-go-sdk"
-	"github.com/aliyun/aliyun-log-go-sdk/example/util"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
+	"github.com/fanghongbo/aliyun-log-go-sdk/example/util"
 	"github.com/gogo/protobuf/proto"
 )
 

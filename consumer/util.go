@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	sls "github.com/aliyun/aliyun-log-go-sdk"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
 )
 
 // List removal of duplicate elements

@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	sls "github.com/aliyun/aliyun-log-go-sdk"
-	"github.com/aliyun/aliyun-log-go-sdk/producer"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
+	"github.com/fanghongbo/aliyun-log-go-sdk/producer"
 	"github.com/gogo/protobuf/proto"
 )
 

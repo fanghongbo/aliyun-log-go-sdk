@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	sls "github.com/aliyun/aliyun-log-go-sdk"
-	consumerLibrary "github.com/aliyun/aliyun-log-go-sdk/consumer"
+	sls "github.com/fanghongbo/aliyun-log-go-sdk"
+	consumerLibrary "github.com/fanghongbo/aliyun-log-go-sdk/consumer"
 	"github.com/go-kit/kit/log/level"
 )
 
